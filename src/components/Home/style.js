@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { CenterSection } from '../styles';
+import { CenterSection } from '../../styles';
 
 
 export const Imagem = styled.img`

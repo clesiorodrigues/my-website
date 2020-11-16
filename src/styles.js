@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const CenterSection = styled.section`
     height: 100vh;
+    background-color: ${props => `${props.BGC}`};
 
     div {
         width: 80vw;

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Imagem, HomeSection, Article} from './style';
-import ImgResume from './../img/resumeImage.png';
-import { Button } from '../styles';
+import ImgResume from '../../img/resumeImage.png';
+import { Button } from '../../styles';
 
 const Home = () => {
     return(

@@ -1,7 +1,10 @@
-import About from './About';
+import About from './components/About';
 import './App.css';
-import Home from './Home';
-import TopBar from './TopBar';
+import Home from './components/Home';
+import TopBar from './components/TopBar';
+import Footer from './components/Footer';
+import Repos from './components/Repos';
+import Portfolio from './Portfolio';
 
 function App() {
   return (
@@ -9,6 +12,9 @@ function App() {
       <TopBar/>
       <Home/>
       <About/>
+      <Portfolio/>
+      <Repos/>
+      <Footer/>
     </div>
   );
 }
