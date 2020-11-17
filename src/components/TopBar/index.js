@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../../styles';
+import { Button, Li } from '../../styles';
 import { Header } from './style';
 
 const TopBar = () => {
@@ -8,13 +8,13 @@ const TopBar = () => {
             <nav>
                 <h1>Empresa</h1>
                 <ul>
-                    <li onClick={()=>{mudarCor('Home')}} >Home</li>
-                    <li onClick={()=>{mudarCor('Sobre')}} >Sobre</li>
-                    <li onClick={()=>{mudarCor('Port')}} >Portifólio</li>
-                    <li onClick={()=>{mudarCor('Repos')}} >Repositórios</li>
-                    <li onClick={()=>{mudarCor('Links')}} >Links</li>
+                    <Li Cor="purple" onClick={()=>{mudarCor('Home')}} >Home</Li>
+                    <Li Cor="orange" onClick={()=>{mudarCor('Sobre')}} >Sobre</Li>
+                    <Li Cor="green" onClick={()=>{mudarCor('Port')}} >Portifólio</Li>
+                    <Li Cor="blue" onClick={()=>{mudarCor('Repos')}} >Repositórios</Li>
+                    <Li Cor="black" onClick={()=>{mudarCor('Links')}} >Links</Li>
                 </ul>
-                <Button>Contato</Button>
+                <Button Color="rgb(30, 0, 90)">Contato</Button>
             </nav>
         </Header>
     );

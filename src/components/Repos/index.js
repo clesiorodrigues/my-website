@@ -3,7 +3,7 @@ import { CenterSection } from '../../styles';
 
 const Repos = () => {
     return(
-        <CenterSection>
+        <CenterSection BGC="blue">
 
         </CenterSection>
     );

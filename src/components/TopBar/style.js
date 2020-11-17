@@ -5,7 +5,8 @@ export const Header = styled.header`
     top: 0;
     height: 100px;
     width: 100vw;
-    background-image: linear-gradient(180deg, rgb(20, 0, 65), rgba(30, 0, 90, .5), rgba(30, 0, 110, 0));
+    /* Aqui */
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .3), rgba(10, 10, 10, 0));
     color: white;
 
     nav {
@@ -29,9 +30,19 @@ export const Header = styled.header`
     }
 
     li {
-        margin-top: 12px;
-        margin-left: 20px;
+        margin-top: 0px;
         cursor: pointer;
+        border-radius: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 13px;
+        padding-bottom: 14px;
+        transition: .2s all;
+
+        :hover {
+            background-color: rgba(255,255,255,.084);
+            box-shadow: 0px 0px 40px rgba(255,255,255,.2);
+        }
     }
 
     button {

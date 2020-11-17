@@ -3,7 +3,7 @@ import { CenterSection } from '../../styles';
 
 const Footer = () => {
     return(
-        <CenterSection BGC='rgb(20, 0, 60)'>
+        <CenterSection BGC='rgb(15, 0, 50)'>
 
         </CenterSection>
     );

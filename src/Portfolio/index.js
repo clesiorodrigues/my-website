@@ -3,7 +3,7 @@ import { CenterSection } from '../styles';
 
 const Portfolio = () => {
     return(
-        <CenterSection BGC='orange'>
+        <CenterSection BGC='green'>
 
         </CenterSection>
     );

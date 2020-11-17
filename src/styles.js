@@ -25,4 +25,17 @@ export const Button = styled.button`
     background-color: ${props => `${props.BGC}`};
     color: ${props => `${props.Color}`};
     border: none;
+    cursor: pointer;
+    transition: .15s all;
+
+    :hover {
+        box-shadow: 0px 1px 7px rgb(255,255,255);
+    }
+`;
+
+export const Li = styled.li`
+    
+    :hover {
+        color: ${props => `${props.Cor}`};
+    }
 `;
