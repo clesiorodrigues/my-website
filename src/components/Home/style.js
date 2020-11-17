@@ -3,14 +3,14 @@ import { CenterSection } from '../../styles';
 
 
 export const Imagem = styled.img`
-    margin-top: 18vh;
+    margin-top: 22vh;
     height: 65vh;
     margin-left: auto;
     margin-right: auto;
 `;
 
 export const HomeSection = styled(CenterSection)`
-    background-image: linear-gradient(45deg, rgb(120, 1, 195), rgb(90, 1, 195),  rgb(25, 0, 90));
+    background-image: linear-gradient(45deg, rgb(120, 0, 175), rgb(80, 1, 175),  rgb(20, 0, 80));
 `;
 
 export const Article = styled.article`

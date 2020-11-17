@@ -18,8 +18,11 @@ export const CenterSection = styled.section`
 export const Button = styled.button`
     height: 44px;
     border-radius: 22px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 25px 0px 25px;
     border: solid 3px white;
     font-size: 30px;
     font-weight: bold;
+    background-color: ${props => `${props.BGC}`};
+    color: ${props => `${props.Color}`};
+    border: none;
 `;
