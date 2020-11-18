@@ -10,8 +10,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-var lastScrollTop = 0;
-var podeRolar = true;
-var rolagem = 0;
-var body = document.querySelector('body');

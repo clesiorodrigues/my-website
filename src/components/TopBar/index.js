@@ -10,6 +10,7 @@ const TopBar = () => {
                 <ul>
                     <Li Cor="purple" onClick={()=>{mudarCor('Home')}} >Home</Li>
                     <Li Cor="orange" onClick={()=>{mudarCor('Sobre')}} >Sobre</Li>
+                    <Li Cor="grey" onClick={()=>{mudarCor('Ideia')}} >Ideias</Li>
                     <Li Cor="green" onClick={()=>{mudarCor('Port')}} >Portifólio</Li>
                     <Li Cor="blue" onClick={()=>{mudarCor('Repos')}} >Repositórios</Li>
                     <Li Cor="black" onClick={()=>{mudarCor('Links')}} >Links</Li>
@@ -20,23 +21,59 @@ const TopBar = () => {
     );
 }
 
+
 function mudarCor(id) {
     switch(id) {
         case 'Home':
-            document.querySelector('body').style.marginTop = '0vh';
+            if(document.querySelector('body').style.marginLeft !== '0vw') {
+                document.querySelector('body').style.marginLeft = '0vw';
+                setTimeout(()=>{document.querySelector('body').style.marginTop = '0vh'}, 300);
+            } else {
+                document.querySelector('body').style.marginTop = '0vh';
+            }
             break;
+
         case 'Sobre':
+            if(document.querySelector('body').style.marginLeft !== '0vw') {
+                document.querySelector('body').style.marginLeft = '0vw';
+                setTimeout(()=>{document.querySelector('body').style.marginTop = '-100vh'}, 300);
+            } else {
+                document.querySelector('body').style.marginTop = '-100vh';
+            }
+            break;
+
+        case 'Ideia':
             document.querySelector('body').style.marginTop = '-100vh';
+            setTimeout(()=>{document.querySelector('body').style.marginLeft = '-100vw'}, 300);
             break;
+
         case 'Port':
-            document.querySelector('body').style.marginTop = '-200vh';
+            if(document.querySelector('body').style.marginLeft !== '0vw') {
+                document.querySelector('body').style.marginLeft = '0vw';
+                setTimeout(()=>{document.querySelector('body').style.marginTop = '-200vh'}, 300);
+            } else {
+                document.querySelector('body').style.marginTop = '-200vh';
+            }
             break;
+
         case 'Repos':
-            document.querySelector('body').style.marginTop = '-300vh';
+            if(document.querySelector('body').style.marginLeft !== '0vw') {
+                document.querySelector('body').style.marginLeft = '0vw';
+                setTimeout(()=>{document.querySelector('body').style.marginTop = '-300vh'}, 300);
+            } else {
+                document.querySelector('body').style.marginTop = '-300vh';
+            }
             break;
+
         case 'Links':
-            document.querySelector('body').style.marginTop = '-400vh';
+            if(document.querySelector('body').style.marginLeft !== '0vw') {
+                document.querySelector('body').style.marginLeft = '0vw';
+                setTimeout(()=>{document.querySelector('body').style.marginTop = '-400vh'}, 300);
+            } else {
+                document.querySelector('body').style.marginTop = '-400vh';
+            }
             break;
+
         default: 
             break;
     }

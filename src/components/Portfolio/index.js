@@ -1,5 +1,5 @@
 import React from 'react';
-import { CenterSection } from '../styles';
+import { CenterSection } from '../../styles';
 
 const Portfolio = () => {
     return(
