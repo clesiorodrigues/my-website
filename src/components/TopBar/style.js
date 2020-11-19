@@ -50,3 +50,16 @@ export const Header = styled.header`
         right: 0;
     }
 `;
+
+export const TelaBranca = styled.div`
+    position: fixed;
+
+    height: 100vh;
+    width: 100vw;
+
+    left: 0;
+    margin-top: -150vh;
+
+    background-color: rgba(255,255,255,.3);
+
+`;

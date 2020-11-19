@@ -1,11 +1,15 @@
 import React from 'react';
 import { Button, Li } from '../../styles';
-import { Header } from './style';
+import { telaContato } from './function';
+import { Header} from './style';
 
 const TopBar = () => {
     return(
         <Header>
             <nav>
+                <div id="t_contato" onClick={()=>{telaContato()}}></div>
+                <form id="f_contato"></form>
+
                 <h1>Empresa</h1>
                 <ul>
                     <Li Cor="purple" onClick={()=>{mudarCor('Home')}} >Home</Li>
@@ -15,7 +19,7 @@ const TopBar = () => {
                     <Li Cor="blue" onClick={()=>{mudarCor('Repos')}} >Repositórios</Li>
                     <Li Cor="black" onClick={()=>{mudarCor('Links')}} >Links</Li>
                 </ul>
-                <Button Color="rgb(30, 0, 90)">Contato</Button>
+                <Button onClick={()=>{telaContato()}} Color="rgb(30, 0, 90)">Contato</Button>
             </nav>
         </Header>
     );
