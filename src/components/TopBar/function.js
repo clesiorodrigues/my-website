@@ -2,7 +2,7 @@ export const telaContato = () => {
     var branco = document.querySelector('div#t_contato');
     var form = document.querySelector('form#f_contato');
 
-    if(form.style.height === '0px') {
+    if(form.style.height !== '93vh') {
         branco.style.marginTop = '-20px';
         form.style.height = '93vh';
         form.style.opacity = '1';
