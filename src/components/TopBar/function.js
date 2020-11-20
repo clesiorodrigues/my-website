@@ -7,7 +7,7 @@ export const telaContato = () => {
         branco.style.marginTop = '-20px';
         divForm.style.height = '93vh';
         divForm.style.opacity = '1';
-        divForm.style.width = '35vw';
+        divForm.style.width = '30vw';
         form.style.display = 'unset';
         setTimeout(()=>{ form.style.opacity = '1' }, 100);
     } else {

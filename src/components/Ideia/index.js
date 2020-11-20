@@ -4,7 +4,7 @@ import { CenterSection } from '../../styles';
 
 const Ideia = () => {
     return(
-        <CenterSection>
+        <CenterSection BGC="red">
         </CenterSection>
     );
 }
