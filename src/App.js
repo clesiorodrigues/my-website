@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Repos from './components/Repos';
 import Portfolio from './components/Portfolio';
 import Ideia from './components/Ideia';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Portfolio/>
       <Repos/>
       <Footer/>
+      <Form/>
     </div>
   );
 }

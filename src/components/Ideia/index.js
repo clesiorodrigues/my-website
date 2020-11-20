@@ -1,12 +1,11 @@
 import React from 'react';
-import TopBar from '../TopBar';
-import { TesteSection } from './style';
+import { CenterSection } from '../../styles';
+// import { TesteSection } from './style';
 
 const Ideia = () => {
     return(
-        <TesteSection>
-            <TopBar/>
-        </TesteSection>
+        <CenterSection>
+        </CenterSection>
     );
 }
 

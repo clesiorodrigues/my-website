@@ -63,3 +63,18 @@ export const TelaBranca = styled.div`
     background-color: rgba(255,255,255,.3);
 
 `;
+
+export const ExpBotao = styled.div`
+    height: 0px;
+    width: 170px;
+    border-radius: 22px;
+    
+    position: fixed;
+    right: 10vw;
+    margin-top: 0px;
+
+    box-shadow: 2px 0px 30px rgba(0,0,0,.3);
+    background-color: rgb(255,255,255);
+
+    transition: .2s all;
+`;
