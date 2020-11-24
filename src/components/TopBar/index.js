@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Li } from '../../styles';
 import { telaContato } from './function';
 import { ExpBotao, Header} from './style';
+import { posicao } from '../../functions';
 
 const TopBar = () => {
     return(
@@ -29,26 +30,32 @@ const TopBar = () => {
 function mudarCor(id) {
     switch(id) {
         case 'Home':
+            posicao = 0;
             document.querySelector('body').style.marginTop = '0vh';
             break;
 
         case 'Sobre':
+            posicao = -100;
             document.querySelector('body').style.marginTop = '-100vh';
             break;
 
         case 'Ideia':
+            posicao = -200;
             document.querySelector('body').style.marginTop = '-200vh';
             break;
 
         case 'Port':
+            posicao = -300;
             document.querySelector('body').style.marginTop = '-300vh';
             break;
 
         case 'Repos':
+            posicao = -400;
             document.querySelector('body').style.marginTop = '-400vh';
             break;
 
         case 'Links':
+            posicao = -500;
             document.querySelector('body').style.marginTop = '-500vh';
             break;
 

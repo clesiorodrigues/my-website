@@ -7,10 +7,11 @@ import Repos from './components/Repos';
 import Portfolio from './components/Portfolio';
 import Ideia from './components/Ideia';
 import Form from './components/Form';
+import {rolar} from './functions';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" onWheel={(e)=>{rolar(e)}}>
       <TopBar/>
       <Home/>
       <About/>
