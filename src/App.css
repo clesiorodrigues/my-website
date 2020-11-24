@@ -3,7 +3,6 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-    transition: .3s all;
 }
 
 body {
@@ -20,18 +19,3 @@ div#t_contato {
 
     background-color: rgba(0,0,0,.7);
 }
-
-/* form#f_contato {
-    height: 0px;
-    width: 170px;
-    border-radius: 22px;
-    
-    position: fixed;
-    right: 10vw;
-    margin-top: 0px;
-
-    box-shadow: 2px 0px 30px rgba(0,0,0,.3);
-    background-color: rgb(255,255,255);
-
-    transition: .2s all;
-} */

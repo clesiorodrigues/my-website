@@ -61,6 +61,7 @@ export const TelaBranca = styled.div`
     margin-top: -150vh;
 
     background-color: rgba(255,255,255,.3);
+    transition: none;
 
 `;
 
