@@ -14,7 +14,7 @@ export const HomeSection = styled(CenterSection)`
 `;
 
 export const Article = styled.article`
-    margin-top: 38vh;
+    margin-top: 34vh;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -22,7 +22,11 @@ export const Article = styled.article`
     color: white;
 
     h1 {
-        font-size: 45px;
-        line-height: 45px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    p {
+        margin-top: 10px;
     }
 `;

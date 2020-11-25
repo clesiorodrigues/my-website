@@ -2,6 +2,7 @@ import React from 'react';
 import {Imagem, HomeSection, Article} from './style';
 import ImgResume from '../../img/resumeImage.png';
 import { Button } from '../../styles';
+import { mudarTela } from '../../functions';
 
 const Home = () => {
     return(
@@ -9,9 +10,10 @@ const Home = () => {
             <div>
                 <Article>
                     <h1>Desenvolvimento de aplicações para web</h1>
-                    <p>See gradients were super played hgjfghjghjghjgfjout backhhhfdh in the early web days, ubiquitous that yghjghjhjhou’d be remiss not to drop them in your site, interface, or next hair dye job.</p>
+
+                    <p>Desenvolvimento, criação e gestão de sites, lojas virtuais, vitrines online, dentre outras aplicações produzidas com as ferramentas mais atuais do mercado. Expanda da sua empresa ou ideia ao alcance da internet.</p>
                     <br/>
-                    <Button BGC="white" Color="rgb(120, 0, 175)" >MAIS</Button>
+                    <Button BGC="white" Color="rgb(120, 0, 175)" onClick={()=>{mudarTela('Ideia')}}> MAIS </Button>
                 </Article>
                 <Imagem src={ImgResume} alt="Ilustração do Resumo"/>
             </div>

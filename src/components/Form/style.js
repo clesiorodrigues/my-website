@@ -7,7 +7,7 @@ export const FormCont = styled.form`
     
     width: 30vw;
     height: 93vh;
-    padding: 50px;
+    padding: 25px;
     padding-top: 80px;
     
     /* background-color: rgba(255,0,0,.2); */

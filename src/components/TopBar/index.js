@@ -3,8 +3,7 @@ import React from 'react';
 import { Button, Li } from '../../styles';
 import { telaContato } from './function';
 import { ExpBotao, Header} from './style';
-// import { posicao } from '../../functions';
-import { mudarCor } from '../../functions';
+import { mudarTela } from '../../functions';
 
 const TopBar = () => {
     return(
@@ -15,12 +14,12 @@ const TopBar = () => {
 
                 <h1>SandBox</h1>
                 <ul>
-                    <Li Cor="rgb(113, 61, 255)" onClick={()=>{mudarCor('Home')}} >Home</Li>
-                    <Li Cor=" rgb(255, 100, 100)" onClick={()=>{mudarCor('Ideia')}} >Ideias</Li>
-                    <Li Cor=" rgb(86, 255, 81)" onClick={()=>{mudarCor('Port')}} >Portifólio</Li>
-                    <Li Cor=" rgb(88, 160, 255)" onClick={()=>{mudarCor('Repos')}} >Repositórios</Li>
-                    <Li Cor=" rgb(255, 122, 61)" onClick={()=>{mudarCor('Sobre')}} >Sobre</Li>
-                    <Li Cor=" rgb(120, 120,120)" onClick={()=>{mudarCor('Links')}} >Links</Li>
+                    <Li Cor="rgb(113, 61, 255)" onClick={()=>{mudarTela('Home')}} >Home</Li>
+                    <Li Cor=" rgb(255, 100, 100)" onClick={()=>{mudarTela('Ideia')}} >Ideias</Li>
+                    <Li Cor=" rgb(86, 255, 81)" onClick={()=>{mudarTela('Port')}} >Portifólio</Li>
+                    <Li Cor=" rgb(88, 160, 255)" onClick={()=>{mudarTela('Repos')}} >Repositórios</Li>
+                    <Li Cor=" rgb(255, 122, 61)" onClick={()=>{mudarTela('Sobre')}} >Sobre</Li>
+                    <Li Cor=" rgb(120, 120,120)" onClick={()=>{mudarTela('Links')}} >Links</Li>
                 </ul>
                 <Button onClick={()=>{telaContato()}} Color="rgb(30, 0, 90)">Contato</Button>
             </nav>

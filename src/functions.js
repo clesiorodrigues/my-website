@@ -20,7 +20,7 @@ export const rolar = (e) => {
     
 }
 
-export const mudarCor = (id) => {
+export const mudarTela = (id) => {
     switch(id) {
         case 'Home':
             posicao = 0;
