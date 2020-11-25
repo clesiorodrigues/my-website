@@ -3,7 +3,6 @@ import './App.css';
 import Home from './components/Home';
 import TopBar from './components/TopBar';
 import Footer from './components/Footer';
-import Repos from './components/Repos';
 import Portfolio from './components/Portfolio';
 import Ideia from './components/Ideia';
 import Form from './components/Form';
@@ -16,7 +15,6 @@ function App() {
       <Home/>
       <Ideia/>
       <Portfolio/>
-      <Repos/>
       <About/>
       <Footer/>
         <Form/>

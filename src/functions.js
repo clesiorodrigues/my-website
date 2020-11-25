@@ -6,7 +6,7 @@ export const rolar = (e) => {
 
     if(e.deltaY > 0) 
             {
-                if(posicao > -500) {
+                if(posicao > -400) {
                     posicao -= 100;
                 body.style.marginTop = `${posicao}vh`;
                 }
@@ -37,19 +37,14 @@ export const mudarTela = (id) => {
             body.style.marginTop = '-200vh';
             break;
 
-        case 'Repos':
-            posicao = -300;
-            body.style.marginTop = '-300vh';
-            break;
-
         case 'Sobre':
             posicao = -400;
-            body.style.marginTop = '-400vh';
+            body.style.marginTop = '-300vh';
             break;
 
         case 'Links':
             posicao = -500;
-            body.style.marginTop = '-500vh';
+            body.style.marginTop = '-400vh';
             break;
 
         default: 

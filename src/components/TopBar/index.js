@@ -17,7 +17,6 @@ const TopBar = () => {
                     <Li Cor="rgb(113, 61, 255)" onClick={()=>{mudarTela('Home')}} >Home</Li>
                     <Li Cor=" rgb(255, 100, 100)" onClick={()=>{mudarTela('Ideia')}} >Ideias</Li>
                     <Li Cor=" rgb(86, 255, 81)" onClick={()=>{mudarTela('Port')}} >Portifólio</Li>
-                    <Li Cor=" rgb(88, 160, 255)" onClick={()=>{mudarTela('Repos')}} >Repositórios</Li>
                     <Li Cor=" rgb(255, 122, 61)" onClick={()=>{mudarTela('Sobre')}} >Sobre</Li>
                     <Li Cor=" rgb(120, 120,120)" onClick={()=>{mudarTela('Links')}} >Links</Li>
                 </ul>
