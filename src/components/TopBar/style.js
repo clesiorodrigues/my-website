@@ -19,7 +19,7 @@ export const Header = styled.header`
 
     h1 {
         margin-top: 2px;
-        font-size: 35px;
+        font-size: 45px;
     }
 
     ul {

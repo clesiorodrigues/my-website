@@ -27,22 +27,22 @@ export const mudarCor = (id) => {
             body.style.marginTop = '0vh';
             break;
 
-        case 'Sobre':
+        case 'Ideia':
             posicao = -100;
             body.style.marginTop = '-100vh';
             break;
 
-        case 'Ideia':
+        case 'Port':
             posicao = -200;
             body.style.marginTop = '-200vh';
             break;
 
-        case 'Port':
+        case 'Repos':
             posicao = -300;
             body.style.marginTop = '-300vh';
             break;
 
-        case 'Repos':
+        case 'Sobre':
             posicao = -400;
             body.style.marginTop = '-400vh';
             break;

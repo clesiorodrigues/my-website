@@ -10,7 +10,7 @@ export const Imagem = styled.img`
 `;
 
 export const HomeSection = styled(CenterSection)`
-    background-image: linear-gradient(45deg, rgb(120, 0, 175), rgb(80, 1, 175),  rgb(20, 0, 80));
+    background-image: linear-gradient(45deg, rgb(140, 0, 175), rgb(80, 1, 175),  rgb(20, 0, 80));
 `;
 
 export const Article = styled.article`
@@ -22,6 +22,7 @@ export const Article = styled.article`
     color: white;
 
     h1 {
-        font-size: 60px;
+        font-size: 45px;
+        line-height: 45px;
     }
 `;

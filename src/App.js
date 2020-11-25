@@ -12,14 +12,14 @@ import {rolar} from './functions';
 function App() {
   return (
     <div className="App" onWheel={(e)=>{rolar(e)}}>
-      <TopBar/>
+        <TopBar/>
       <Home/>
-      <About/>
       <Ideia/>
       <Portfolio/>
       <Repos/>
+      <About/>
       <Footer/>
-      <Form/>
+        <Form/>
     </div>
   );
 }

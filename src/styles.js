@@ -18,15 +18,15 @@ export const CenterSection = styled.section`
 export const Button = styled.button`
     height: 44px;
     border-radius: 22px;
-    padding: 0.5rem 1rem;
+    padding: 0px 25px 0px 25px;
     border: solid 3px white;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     background-color: ${props => `${props.BGC}`};
     color: ${props => `${props.Color}`};
     border: none;
     cursor: pointer;
-    transition: all .2s ease 0s;
+    transition: .2s all;
 
     :hover {
         box-shadow: 0px 1px 7px rgb(255,255,255);

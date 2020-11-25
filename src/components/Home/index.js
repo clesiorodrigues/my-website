@@ -8,7 +8,7 @@ const Home = () => {
         <HomeSection id="h">
             <div>
                 <Article>
-                    <h1>Título do texto</h1>
+                    <h1>Desenvolvimento de aplicações para web</h1>
                     <p>See gradients were super played hgjfghjghjghjgfjout backhhhfdh in the early web days, ubiquitous that yghjghjhjhou’d be remiss not to drop them in your site, interface, or next hair dye job.</p>
                     <br/>
                     <Button BGC="white" Color="rgb(120, 0, 175)" >MAIS</Button>
