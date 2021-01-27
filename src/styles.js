@@ -25,10 +25,10 @@ export const Button = styled.button`
     color: white;
     /* border: none; */
     cursor: pointer;
-    transition: .4s all;
+    transition: .3s all;
 
     :hover {
-        background-color: rgba(255,255,255,.8);
+        background-color: rgb(255,255,255);
         color: ${props => `${props.Color}`};
     }
 /* 

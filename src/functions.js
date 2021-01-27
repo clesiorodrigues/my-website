@@ -3,7 +3,6 @@ var posicao = 0;
 var body = document.querySelector('body');    
 
 export const rolar = (e) => {
-
     if(e.deltaY > 0) 
             {
                 if(posicao > -400) {
