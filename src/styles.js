@@ -23,7 +23,6 @@ export const Button = styled.button`
     font-weight: bold;
     background-color: rgba(0,0,0,0);
     color: white;
-    /* border: none; */
     cursor: pointer;
     transition: .3s all;
 
@@ -31,22 +30,6 @@ export const Button = styled.button`
         background-color: rgb(255,255,255);
         color: ${props => `${props.Color}`};
     }
-/* 
-    height: 44px;
-    border-radius: 22px;
-    padding: 0px 25px 0px 25px;
-    border: solid 3px white;
-    font-size: 30px;
-    font-weight: bold;
-    background-color: ${props => `${props.BGC}`};
-    color: ${props => `${props.Color}`};
-    border: none;
-    cursor: pointer;
-    transition: .2s all;
-
-    :hover {
-        box-shadow: 0px 1px 7px rgb(255,255,255);
-    } */
 `;
 
 
