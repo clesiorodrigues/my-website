@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    /* Hide scrollbars */
+    transition: .2s all;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav.nav_top-bar {
+    padding-top: 20px;
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+    transition: .5s all;
+    z-index: 15;
+}
+
+span.span_titulo {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.encolher {
+    height: 70px !important;
+    padding-top: 5px !important;
+}
+
+div.div_content-nav-bar {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    color: white;
+    margin: 0px 10vw 0px 10vw;
+}
+
+ul.ul_nav-bar {
+    text-align: right;
+    margin-right: 1.5rem;
+}
+
+ul.ul_nav-bar li {
+    display: inline-block;
+    margin-right: 1rem;
+    font-weight: 400;
+}
+
+.app {
+    transition: .5s all;
+    transition-timing-function: ease;
+}
+
+div.sessao {
+    background-color: rgb(0, 225, 255);
+    width: 100vw;
+    height: 100vh;
+    /* padding-top: 100px; */
+}
+
+div#div_home {
+    background-image: linear-gradient(45deg, rgb(113, 0, 141), rgb(67, 0, 148), rgb(16, 0, 63));
+}
+
+div#div_ideias {
+    background-image: linear-gradient(135deg, rgb(48, 184, 60), rgb(20, 131, 69), rgb(5, 70, 50));
+}
+
+div#div_portifolio {
+    background: red;
+}
+
+div#div_sobre {
+    background: yellow;
+}
+
+div#div_links {
+    background: blue;
+}
+
+ul.ul_point {
+    position: absolute;
+    top: 42vh;
+    right: 3.5vw;
+    z-index: 20;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.bg_white {
+    background: white;
+}
+
+ul.ul_point li {
+    /* position: absolute;
+    margin-top: 50vh;
+    right: 5vw; */
+}
+
+div.nav_point {
+    border: 2px solid white;
+    height: .5rem;
+    width: .5rem;
+    border-radius: .6rem;
+    margin-bottom: .7rem;
+    transition: .4s all;
+}
+
+div.nav_point:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+article.conteudo {
+    width: 80vw;
+    padding-top: 100px;
+    /* height: 100%; */
+    margin: 0px auto;
+    /* background-color: rgba(255, 255, 255, 0.164); */
+    align-content: center;
+    color: white;
+}
+
+
+div.div_conteudo-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+    margin: auto 60px;
+    /* background-color: rgba(255, 255, 255, 0.164); */
+}
+
+h2.h2_main {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 48px;
+    margin-bottom: 0px;
+}
+
+div.div_descricao {
+    margin-top: 12vh;
+    /* padding: 40px; */
+    /* background-color: rgba(255, 255, 255, 0.164); */
+}
+
+div.div_descricao_filha {
+    /* padding: 40px; */
+    /* background-color: rgba(255, 255, 255, 0.164); */
+    width: 80%;
+    margin: auto;
+    max-width: 60vh;
+}
+
+.fundo {
+    /* background: rgba(179, 0, 0, 0.199); */
+    height: 0vh;
+    width: 40%;
+    z-index: 90px !important;
+    position: absolute;
+    right: 0;
+    border-left: solid 10vw transparent;
+    border-bottom: solid 100vh rgb(27, 0, 53);
+    transition: 1s all;
+}
+
+div.div_ilustracao {
+    text-align: center;
+    margin-top: 8vh;
+    z-index: 10;
+}
+
+img.img_figure {
+    height: 65vh;
+    transition: 1s all;
+}
+
+button.btn_destaque {
+    margin-top: 3px;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    border: 2px solid white;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 22px;
+    height: 44px;
+    padding: 0px 25px;
+    cursor: pointer;
+    transition: .25s all;
+}
+
+button.btn_destaque:hover {
+    background: white;
+    color: #190042;
+}
+
+.circle_01 {
+    height: 40vh;
+    width: 40vh;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.719);
+    border-radius: 20vh;
+    left: -100px;
+    top: 50px;
+    transition: 1.8s all;
+}
+
+.circle_02 {
+    height: 30vh;
+    width: 30vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 15vh;
+    right: -20vh;
+    bottom: 20px;
+    transition: 1.8s all;
+}

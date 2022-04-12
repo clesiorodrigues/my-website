@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SandBox</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body onwheel="detectarScroll(event, '')" >
+    <nav class="nav_top-bar">
+        <div class="div_content-nav-bar">
+            <div>
+                <span class="span_titulo">SandBox</span>
+            </div>
+
+            <ul class="ul_nav-bar">
+                <li>Home</li>
+                <li>Ideias</li>
+                <li>Portifólio</li>
+                <li>Sobre</li>
+                <li>Links</li>
+            </ul>
+
+            <div>
+                <button class="btn_destaque">Contato</button>
+            </div>
+        </div>
+        <ul class="ul_point" >
+            <li>
+                <a href="#div_home">
+                    <div class="nav_point bg_white link_to_home"></div>
+                </a>
+            </li>
+            <li>
+                <a href="#div_ideias">
+                    <div class="nav_point"></div>
+                </a>
+            </li>
+            <li>
+                <a href="#div_portifolio">
+                    <div class="nav_point"></div>
+                </a>
+            </li>
+            <li>
+                <a href="#div_sobre">
+                    <div class="nav_point"></div>
+                </a>
+            </li>
+            <li>
+                <a href="#div_links">
+                    <div class="nav_point"></div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="app">
+        
+        <div id="div_home" class="sessao">
+
+            <div class="circle_01"></div>
+
+            <div class="fundo">
+            </div>
+            <article class="conteudo">
+                <div class="div_conteudo-main">
+                    <div class="div_descricao">
+                        <div class="div_descricao_filha">
+                            <h2 class="h2_main">Desenvolvimento de aplicações para web</h2>
+                            <p>Desenvolvimento, criação e gestão de sites, lojas virtuais, vitrines online, dentre outras aplicações produzidas com as ferramentas mais atuais do mercado. Expanda da sua empresa ou ideia ao alcance da internet.</p>
+                            <div style=" margin-top: -10px; margin-right: 15px;">
+                                <!-- <a href="#div_ideias"> -->
+                                    <button class="btn_destaque btn_ideias">MAIS</button>
+                                <!-- </a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div_ilustracao">
+                        <img class="img_figure" src="./assets/figures/resumeImage.46dd9074.png" alt="">
+                    </div>
+                </div>
+            </article>
+            <div class="circle_02"></div>
+        </div>
+        <div id="div_ideias" class="sessao">
+            <div class="conteudo">
+                sessão 2
+            </div>
+        </div>
+        <div id="div_portifolio" class="sessao">
+            <div class="conteudo">
+                sessão 3
+            </div>
+        </div>
+        <div id="div_sobre" class="sessao">
+            <div class="conteudo">
+                sessão 4
+            </div>
+        </div>
+        <div id="div_links" class="sessao">
+            <div class="conteudo">
+                sessão 5
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="./script.js"></script>
+
+<script>
+
+</script>
+
+</html>
